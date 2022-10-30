@@ -77,7 +77,8 @@ h6 {
     font-size: 30px;
     line-height: 44px;
     text-align: center;
-    margin: 65px 0 45px 0;
+    margin: 0 0 45px 0;
+    padding-top: 65px;
 }
 
 
@@ -664,6 +665,68 @@ h6 {
                 
                 &_3 {
                     top:40%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.feedback {
+    background: url(/img/feedback_bg.jpg) no-repeat center center;
+    background-size: cover;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 80px;
+        padding-bottom: 67px;
+        justify-content: space-between;
+
+        &__item {
+            width: 49%;
+            display: flex;
+            gap: 50px;
+
+            &__img {
+                margin-top: 3px;
+            }
+
+            &__about {
+                
+                & h3 {
+                    font-size: 24px;
+                    color: #2D3033;
+                    text-transform: uppercase;
+                }
+
+                & h6 {
+                    font-size: 18px;
+                    margin-top: 18px;
+                    margin-bottom: 28px;
+                    color: #2D3033;
+                }
+
+                &__separetor {
+                    height: 3px;
+                    width: 70px;
+                    background-color: #F38281;
+                }
+
+                & p {
+                    width: 369px;
+                    margin-top: 56px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #2D3033;
                 }
             }
         }
