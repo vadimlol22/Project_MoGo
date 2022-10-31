@@ -737,6 +737,75 @@ h6 {
 
 
 
+.blog {
+    padding-bottom: 90px;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+
+        &__item {
+            width: 370px;
+            position: relative;
+
+            &__data {
+                position: absolute;
+                top: 148px;
+                left: -7px;
+                height: 80px;
+                width: 80px;
+                background-color: #95E1D3;
+                font-weight: 700;
+                font-size: 36px;
+                color: #FFFFFF;
+                text-align: center;
+                padding-top: 10px;
+
+                & span {
+                    display: block;
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                    margin-top: 7px;
+                    text-align: center;
+                }
+            }
+
+            &__text {
+                    margin: 30px 0;
+                & h3 {
+                    font-size: 24px;
+                    text-transform: uppercase;
+                    color: #2D3033;
+                    margin-bottom: 14px;
+                }
+
+                & p {
+                    color: #2D3033;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+
+            &__icon {
+                display: flex;
+                align-items: center;
+                
+                & p {
+                    margin: 0 52px 0 15px;
+                    font-weight: 400;
+                    font-size: 13px;
+                    color: #2D3033;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
 
 
 
