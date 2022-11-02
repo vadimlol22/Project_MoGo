@@ -18,5 +18,8 @@
     "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0",
     "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2"
   }
 }
