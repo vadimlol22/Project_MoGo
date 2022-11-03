@@ -525,8 +525,12 @@ h6 {
                             border-bottom: 1px solid #C6CBCD;
 
                             &:after {
-                                background-image: ;
+                                background-image: url(/img/do_arow.svg);
                             }
+                        }
+
+                        &::after {
+                            background-image: url(/img/do_arow.svg);
                         }
 
                         &:focus {
@@ -544,13 +548,24 @@ h6 {
                 }
 
                 &__body {
-                    padding: 22px;
-                    height: 163;
+                    height: 131;
+                    overflow: auto;
+                    margin: 16px 24px 16px 0;
+                    padding: 0 0 0 22px;
+
+                    &::-webkit-scrollbar {
+                        width: 7px;
+                        background-color: #F5F5F5;
+                        
+                    }
+
+                    &::-webkit-scrollbar-thumb {
+                        background-color:  #95E1D3;
+                        
+                    }
 
                     & h5 {
-                        font-size: 18px;
                         color: #2D3033;
-                        line-height: 21px;
                         margin: 0;
                     }
 
