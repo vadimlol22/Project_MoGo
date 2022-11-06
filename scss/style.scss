@@ -301,8 +301,7 @@ h6 {
 
     &__picture {
         display: flex;
-        justify-content: center;
-        gap: 30px;
+        justify-content: space-between;
         margin-top: 95px;
         margin-bottom: 108px;
 
@@ -317,7 +316,7 @@ h6 {
             }
 
             &:hover .story__picture__item__img {
-                transform: translate(-16px, -16px);
+                transform: translate(-9px, -9px);
             }
 
             &:hover .story__picture__item__img img {
@@ -658,8 +657,7 @@ h6 {
 .team {
     &__person {
         display: flex;
-        justify-content: center;
-        gap: 30px;
+        justify-content: space-between;
         margin: 57px 0 84px 0;
 
         &__item {
@@ -686,7 +684,7 @@ h6 {
             }
 
             &:hover .team__person__item__img {
-                transform: translate(-16px, -16px);
+                transform: translate(-9px, -9px);
                 transition: transform .2s linear;
             }
 
@@ -881,6 +879,7 @@ h6 {
                 }
 
                 & h6 {
+                    font-weight: 400;
                     font-size: 18px;
                     margin-top: 18px;
                     margin-bottom: 28px;
@@ -1068,7 +1067,7 @@ h6 {
             }
 
             &__form  {
-                margin-top: 46px;
+                margin-top: 31px;
                 display: flex;
 
                 & input{
@@ -1111,6 +1110,7 @@ h6 {
             gap: 20px;
 
             &__title {
+                font-weight: 700;
                 font-size: 24px;
                 margin-bottom: 20px;
                 margin-top: 80px;
@@ -1141,11 +1141,10 @@ h6 {
             width: 270px;
             display: flex;
             flex-direction: column;
-            gap: 40px;
+            gap: 34px;
 
             &__title {
                 font-size: 24px;
-                // margin-bottom: 13px;
                 margin-top: 80px;
             }
 
