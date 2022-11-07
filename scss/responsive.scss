@@ -801,8 +801,8 @@
     }
     
     h5 {
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 13px;
+        line-height: 15px;
     }
     
     h6 {
@@ -1056,6 +1056,181 @@
                 height: 175px;
                 top: 92px;
                 right: 75px;
+            }
+        }
+    }
+
+
+
+
+    .do {
+
+        &__text {
+            width: 288px;
+            margin: 0 auto;
+        }
+
+        &__content {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 65px;
+            height: 582px;
+
+            &__img {
+
+                & img {
+                    width: 288px;
+                    height: 142px;
+                }
+            }
+
+            &__accordion {
+                width: 288px;
+                height: 410px;
+                gap: 19px;
+
+                &__item__header__button {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+
+
+    .slider {
+
+        &__inner__item {
+
+            width: 288px;
+
+            &__img {
+                opacity: 0;
+            }
+
+            &__text {
+                width: 288px;
+                left: 0;
+
+                & h5 {
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+
+                div {
+
+                    & h2 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    .team {
+
+        &__text {
+            width: 271px;
+            margin: 0 auto;
+        }
+
+        &__person {
+            flex-direction: column;
+            align-items: center;
+            gap: 102px;
+            
+            &__item {
+                width: 236px;
+
+                &:first-child {
+                    width: 288px;
+                    height: 236px;
+                }
+
+                &:nth-child(2) {
+                    width: 288px;
+                    height: 236px;
+                }
+
+                &:last-child {
+                    width: 288px;
+                    height: 236px;
+                }
+
+                &:hover .team__person__item__img {
+                    transform: translate(0, 0);
+                    width: 288px;
+                    height: 236px;
+                }
+
+                &:hover .team__person__item__img img {
+                    display: none;
+                }
+
+                &__icon {
+                    opacity: 1;
+                    top: 194px;
+                    left: 117px;
+
+                    & img {
+                        height: 42px;
+                        width: 42px;
+                    }
+                }
+
+                &__img {
+                    width: 288px;
+                    height: 236px;
+                    background: none;
+
+                    & img {
+                        display: none;
+                    }
+                }
+
+                & h3 {
+                    margin-top: 15px;
+                    margin-bottom: 11px;
+                }
+            }
+        }
+    }
+
+
+
+
+
+    .icons {
+
+        &__logo {
+            flex-wrap: wrap;
+            width: 288px;
+            margin: 0 auto;
+            row-gap: 36px;
+
+            & img {
+
+                &:nth-child(1) {
+                    width: 50%;
+                }
+                &:nth-child(2) {
+                    width: 50%;
+                }
+                &:nth-child(3) {
+                    width: 100%;
+                }
+                &:nth-child(4) {
+                    width: 50%;
+                }
+                &:nth-child(5) {
+                    width: 50%;
+                }
+                &:nth-child(6) {
+                    width: 100%;
+                }
             }
         }
     }
